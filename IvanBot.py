@@ -86,6 +86,6 @@ async def reset(ctx):
 TOKEN = os.getenv("TOKEN")
 
 if TOKEN is None:
-    print("❌ Token není nastaven!")
+    print("No TOKEN")
 else:
     bot.run(TOKEN)
